@@ -10,7 +10,7 @@
     "Albin Sunnanbo (https://github.com/albinsunnanbo)",
     "Marc Sutton <ashre@iname.com> (http://www.codev.co.uk)"
   ],
-  "version": "1.9.0",
+  "version": "1.9.1",
   "license": "MIT/GPLv2",
   "keywords": [ "dirty", "form", "onbeforeunload", "save", "check" ],
   "main": "jquery.are-you-sure.js",
@@ -25,7 +25,7 @@
     "url": "https://github.com/codedance/jquery.AreYouSure/issues"
   },
   "dependencies": {
-    "jquery": ">=1.4.2"
+    "jquery": ">=3.6.0"
   },
   "devDependencies": {
     "bower": "^1.3.1",
