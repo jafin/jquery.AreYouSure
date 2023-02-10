@@ -1,16 +1,11 @@
-'use strict';
-
-// Karma adds 'base/' to the default path
-jasmine.getFixtures().fixturesPath = 'base/spec/javascripts/fixtures';
-
 describe("A form's", function() {
-  var $form = undefined;
+  var $form:any = undefined;
 
   describe('text input', function() {
-    var $textInput = undefined;
+    var $textInput:any = undefined;
 
     beforeEach(function() {
-      loadFixtures('input-text.html');
+      document.body.innerHTML = (window as any).__html__['input-text.html'];
       $form = $('form');
       $textInput = $('input[type=text]');
       $form.areYouSure();
